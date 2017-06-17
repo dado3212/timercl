@@ -1,0 +1,10 @@
+Package: com.hackingdartmouth.timercl
+Name: TimerCL
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A command line tool to control the iOS timer.
+Maintainer: Alex Beals <Alex.Beals.18@dartmouth.edu>
+Author: Alex Beals <Alex.Beals.18@dartmouth.edu>
+Section: System
+Depiction: http://cydia.alexbeals.com/TimerCL
