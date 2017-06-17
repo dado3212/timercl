@@ -4,7 +4,7 @@
 
 extern "C" CFNotificationCenterRef CFNotificationCenterGetDistributedCenter(void);
 
-const char helpText[] = "Usage:\n - Pause: `TimerCL pause`\n - Resume: `TimerCL resume`\n - Cancel: `TimerCL cancel`\n - Set: `TimerCL set <seconds>`\n";
+const char helpText[] = "Usage:\n - Pause: `timercl pause`\n - Resume: `timercl resume`\n - Cancel: `timercl cancel`\n - Set: `timercl set <seconds>`\n";
 
 int main(int argc, char **argv, char **envp) {
 	if (argc == 1) {
