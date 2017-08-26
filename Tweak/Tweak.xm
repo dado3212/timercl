@@ -5,12 +5,6 @@
 #import <CoreFoundation/CFNotificationCenter.h>
 extern "C" CFNotificationCenterRef CFNotificationCenterGetDistributedCenter();
 
-// Headers
-@interface CTMessageCenter
-+(id) sharedMessageCenter;
--(BOOL) sendSMSWithText:(id)arg1 serviceCenter:(id)arg2 toAddress:(id)arg3;
-@end
-
 @interface TimerManager
 +(instancetype)sharedManager;
 -(double)defaultDuration;
