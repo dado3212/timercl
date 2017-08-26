@@ -1,6 +1,5 @@
 #import <objc/runtime.h>
 
-// IPC Notifications for third-party keyboards
 #import <CoreFoundation/CoreFoundation.h>
 #import <CoreFoundation/CFNotificationCenter.h>
 extern "C" CFNotificationCenterRef CFNotificationCenterGetDistributedCenter();
